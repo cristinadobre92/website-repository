@@ -1,38 +1,112 @@
 .App {
   text-align: center;
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua,
+    Georgia, serif;
+  padding: 10px 20px;
+  color: rgb(241, 186, 137);
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #122233,
+    #101827
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1a2e44,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 7px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 10vh;
+  color: rgb(241, 186, 137);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: rgb(241, 186, 137);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-page {
+  justify-content: space-around;
+  color: rgb(241, 186, 137);
+}
+
+
+li, a, .tab-header {
+  color: rgb(241, 186, 137);
+  padding: 12px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+li:hover, a:hover, .tab-header:hover {
+  transition: all 0.5s linear 0;
+  color: rgb(240, 165, 25);
+  background-color: #141e30;
+  text-decoration: none;
+}
+
+li:active, a:active, .tab-header:active {
+  color: rgb(177, 117, 6);
+}
+
+form {
+  width: 100%;
+  border-style: groove;
+  border-radius: 6px;
+  padding: 30px;
+  word-wrap: normal;
+}
+
+.intro {
+  width: 100%;
+  padding: 30px;
+  word-wrap: normal;
+}
+
+textarea[type="text"] {
+  font-size: 14px;
+  width: 70vw;
+  height: 70px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid rgb(255, 200, 175);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  box-sizing: border-box;
+  width: max-content;
+  background-color: rgb(241, 186, 137);
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(240, 165, 25);
+}
+
+input[type="submit"]:active {
+  background-color: rgb(177, 117, 6);
 }
