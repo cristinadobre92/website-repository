@@ -1,22 +1,21 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
-import {Link} from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
     <nav>
-        <ul className="nav-links">
-            <Link to='/'>
-                <li>Home</li>
-            </Link>
-            <Link to='/professional'>
-                <li>Professional</li>
-            </Link>
-            <Link to='/personal'>
-                <li>Personal</li>
-            </Link>
-         </ul>
-               
+      <ul className="nav-links">
+        <Link to="/">
+          <li>Home</li>
+        </Link>
+        <Link to="/professional">
+          <li>Professional</li>
+        </Link>
+        <Link to="/personal">
+          <li>Personal</li>
+        </Link>
+      </ul>
     </nav>
   );
 }

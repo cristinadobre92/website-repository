@@ -41,25 +41,41 @@ const Home = () => (
         <br /> I have used in here:
       </p>
 
-      <ul className="prog">
+      <ul>
         <li>
-          <FontAwesomeIcon icon={faGithub} />
-          <a href="https://github.com/" >GitHub</a>
+          <a className="prog" href="https://github.com/" target="_blank">
+            <FontAwesomeIcon icon={faGithub} />
+            GitHub
+          </a>
         </li>
         <br />
         <li>
-          <FontAwesomeIcon icon={faReact} />
-          <a href="https://reactjs.org/">React</a>
+          <a className="prog" href="https://reactjs.org/" target="_blank">
+            <FontAwesomeIcon icon={faReact} />
+            React
+          </a>
         </li>
         <br />
         <li>
-          <FontAwesomeIcon icon={faHtml5} />
-          <a href="https://www.w3schools.com/html/">HTML</a>
+          <a
+            className="prog"
+            href="https://www.w3schools.com/html/"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faHtml5} />
+            HTML
+          </a>
         </li>
         <br />
         <li>
-          <FontAwesomeIcon icon={faCss3} />
-          <a href="https://www.w3schools.com/css/">CSS</a>
+          <a
+            className="prog"
+            href="https://www.w3schools.com/css/"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faCss3} />
+            CSS
+          </a>
         </li>
         <br />
       </ul>

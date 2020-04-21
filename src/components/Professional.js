@@ -15,34 +15,31 @@ class Professional extends Component {
         <div style={{ width: "80%", margin: "auto" }}>
           <Grid className="demo-grid-1">
             <Cell col={2}>PERIOD</Cell>
-            <Cell col={1}>
-            </Cell>
-            <Cell col={3}>
-              UNIVERSITY
-            </Cell>
-            <Cell col={6}>FIELD</Cell>
+            <Cell col={4}>UNIVERSITY</Cell>
+            <Cell col={1}>LINK</Cell>
+            <Cell col={5}>FIELD</Cell>
           </Grid>
           <Grid className="demo-grid-1">
             <Cell col={2}>2011-2017</Cell>
+            <Cell col={4}>
+              Technical University of Civil Engineering in Bucharest
+            </Cell>
             <Cell col={1}>
-              <a href="https://utcb.ro/">
+              <a className="uni-work" href="https://utcb.ro/" target="_blank">
                 <FontAwesomeIcon icon={faLink} />
               </a>
             </Cell>
-            <Cell col={3}>
-              Technical University of Civil Engineering in Bucharest
-            </Cell>
-            <Cell col={6}>Civil Engineering/Structural Engineering</Cell>
+            <Cell col={5}>Civil Engineering/Structural Engineering</Cell>
           </Grid>
           <Grid className="demo-grid-1">
             <Cell col={2}>2015-2016</Cell>
+            <Cell col={4}>Erasmus exchange: Czech Technical University</Cell>
             <Cell col={1}>
-              <a href="https://www.cvut.cz/en">
+              <a className="uni-work" href="https://www.cvut.cz/en" target="_blank">
                 <FontAwesomeIcon icon={faLink} />
               </a>
             </Cell>
-            <Cell col={3}>Erasmus exchange: Czech Technical University</Cell>
-            <Cell col={6}>Structural Engineering</Cell>
+            <Cell col={5}>Structural Engineering</Cell>
           </Grid>
         </div>
       );
@@ -51,34 +48,31 @@ class Professional extends Component {
         <div style={{ width: "80%", margin: "auto" }}>
           <Grid className="demo-grid-1">
             <Cell col={2}>PERIOD</Cell>
-            <Cell col={1}>
-            </Cell>
-            <Cell col={3}>
-              COMPANY
-            </Cell>
-            <Cell col={6}>POSITION</Cell>
+            <Cell col={4}>COMPANY</Cell>
+            <Cell col={1}>LINK</Cell>
+            <Cell col={5}>POSITION</Cell>
           </Grid>
           <Grid className="demo-grid-1">
             <Cell col={2}>Jan. 2017 - Jun. 2017</Cell>
+            <Cell col={4}>Terratest Geotehnic</Cell>
             <Cell col={1}>
-              <a href="https://terratestromania.ro/en/">
+              <a className="uni-work" href="https://terratestromania.ro/en/" target="_blank">
                 <FontAwesomeIcon icon={faLink} />
               </a>
             </Cell>
-            <Cell col={3}>
-              Terratest Geotehnic
-            </Cell>
-            <Cell col={6}>Quiotation Engineer</Cell>
+            <Cell col={5}>Quotation Engineer</Cell>
           </Grid>
           <Grid className="demo-grid-1">
             <Cell col={2}>Aug. 2017 - Mar. 2020</Cell>
-            <Cell col={1}>
-              <a href="https://www.buhlergroup.com/content/buhlergroup/global/en/homepage.html">
+            <Cell col={4}>Buhler Group</Cell><Cell col={1}>
+              <a
+                className="uni-work"
+                href="https://www.buhlergroup.com/content/buhlergroup/global/en/homepage.html" Ftarget="_blank"
+              >
                 <FontAwesomeIcon icon={faLink} />
               </a>
             </Cell>
-            <Cell col={3}>Buhler Group</Cell>
-            <Cell col={6}>Design Engineer</Cell>
+            <Cell col={5}>Design Engineer</Cell>
           </Grid>
         </div>
       );

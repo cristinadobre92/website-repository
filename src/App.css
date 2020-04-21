@@ -47,8 +47,21 @@ nav {
   color: rgb(241, 186, 137);
 }
 
+.uni-work {
+  color: rgb(241, 186, 137);
+}
 
-li,  .tabs {
+.uni-work:hover {
+  color: rgb(240, 165, 25);
+}
+
+.uni-work:active {
+  color: rgb(177, 117, 16);
+}
+
+li,
+.prog,
+.tabs {
   color: rgb(241, 186, 137);
   padding: 12px 60px;
   text-align: center;
@@ -56,15 +69,20 @@ li,  .tabs {
   display: inline-block;
 }
 
-li:hover, .tabs:hover {
+li:hover,
+.prog:hover,
+.tabs:hover {
   transition: all 0.5s linear 0;
   color: rgb(240, 165, 25);
   background-color: #141e30;
   text-decoration: none;
 }
 
-li:active, .tabs:active, .tabs:visited {
-  color: rgb(177, 117, 6);
+li:active,
+.prog:active,
+.tabs:active,
+.tabs:visited {
+  color: rgb(177, 117, 16);
 }
 
 form {
