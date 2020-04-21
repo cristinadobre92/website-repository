@@ -32,7 +32,7 @@ function App() {
 const Home = () => (
   <div className="home-page">
     <div>
-      <img src={Aintmuch} alt="Aint much but its honest work meme" />
+      <img src={Aintmuch} alt="Ain't much but its' honest work meme" />
     </div>
     <br />
     <div className="intro">
