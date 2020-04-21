@@ -48,7 +48,7 @@ nav {
 }
 
 
-li, a, .tab-header {
+li,  .tabs {
   color: rgb(241, 186, 137);
   padding: 12px 60px;
   text-align: center;
@@ -56,14 +56,14 @@ li, a, .tab-header {
   display: inline-block;
 }
 
-li:hover, a:hover, .tab-header:hover {
+li:hover, .tabs:hover {
   transition: all 0.5s linear 0;
   color: rgb(240, 165, 25);
   background-color: #141e30;
   text-decoration: none;
 }
 
-li:active, a:active, .tab-header:active {
+li:active, .tabs:active, .tabs:visited {
   color: rgb(177, 117, 6);
 }
 

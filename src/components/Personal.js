@@ -4,7 +4,7 @@ function Personal() {
   return (
     <div className="personal">
       <h1>Personal Page</h1>
-      <h2>Hobbies</h2>
+      <h2>Under construction</h2>
     </div>
   );
 }

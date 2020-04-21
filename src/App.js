@@ -44,7 +44,7 @@ const Home = () => (
       <ul className="prog">
         <li>
           <FontAwesomeIcon icon={faGithub} />
-          <a href="https://github.com/">GitHub</a>
+          <a href="https://github.com/" >GitHub</a>
         </li>
         <br />
         <li>

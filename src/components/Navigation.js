@@ -6,6 +6,9 @@ function Nav() {
   return (
     <nav>
         <ul className="nav-links">
+            <Link to='/'>
+                <li>Home</li>
+            </Link>
             <Link to='/professional'>
                 <li>Professional</li>
             </Link>
