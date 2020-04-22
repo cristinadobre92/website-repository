@@ -1,3 +1,4 @@
+/*eslint-env worker*/
 /**
  * Welcome to your Workbox-powered service worker!
  *
