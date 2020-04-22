@@ -25,7 +25,7 @@ class Professional extends Component {
               Technical University of Civil Engineering in Bucharest
             </Cell>
             <Cell col={1}>
-              <a className="uni-work" href="https://utcb.ro/" target="_blank">
+              <a className="uni-work" href="https://utcb.ro/" rel="noopener">
                 <FontAwesomeIcon icon={faLink} />
               </a>
             </Cell>
@@ -35,7 +35,7 @@ class Professional extends Component {
             <Cell col={2}>2015-2016</Cell>
             <Cell col={4}>Erasmus exchange: Czech Technical University</Cell>
             <Cell col={1}>
-              <a className="uni-work" href="https://www.cvut.cz/en" target="_blank">
+              <a className="uni-work" href="https://www.cvut.cz/en" rel="noopener">
                 <FontAwesomeIcon icon={faLink} />
               </a>
             </Cell>
@@ -56,7 +56,7 @@ class Professional extends Component {
             <Cell col={2}>Jan. 2017 - Jun. 2017</Cell>
             <Cell col={4}>Terratest Geotehnic</Cell>
             <Cell col={1}>
-              <a className="uni-work" href="https://terratestromania.ro/en/" target="_blank">
+              <a className="uni-work" href="https://terratestromania.ro/en/" rel="noopener">
                 <FontAwesomeIcon icon={faLink} />
               </a>
             </Cell>
@@ -67,7 +67,7 @@ class Professional extends Component {
             <Cell col={4}>Buhler Group</Cell><Cell col={1}>
               <a
                 className="uni-work"
-                href="https://www.buhlergroup.com/content/buhlergroup/global/en/homepage.html" Ftarget="_blank"
+                href="https://www.buhlergroup.com/content/buhlergroup/global/en/homepage.html" rel="noopener"
               >
                 <FontAwesomeIcon icon={faLink} />
               </a>

@@ -43,14 +43,14 @@ const Home = () => (
 
       <ul>
         <li>
-          <a className="prog" href="https://github.com/" target="_blank">
+          <a className="prog" href="https://github.com/" rel="noopener">
             <FontAwesomeIcon icon={faGithub} />
             GitHub
           </a>
         </li>
         <br />
         <li>
-          <a className="prog" href="https://reactjs.org/" target="_blank">
+          <a className="prog" href="https://reactjs.org/" rel="noopener">
             <FontAwesomeIcon icon={faReact} />
             React
           </a>
@@ -60,7 +60,7 @@ const Home = () => (
           <a
             className="prog"
             href="https://www.w3schools.com/html/"
-            target="_blank"
+            rel="noopener"
           >
             <FontAwesomeIcon icon={faHtml5} />
             HTML
@@ -71,7 +71,7 @@ const Home = () => (
           <a
             className="prog"
             href="https://www.w3schools.com/css/"
-            target="_blank"
+            rel="noopener"
           >
             <FontAwesomeIcon icon={faCss3} />
             CSS
