@@ -1,4 +1,5 @@
-/*eslint-env worker*/
+/* eslint-env worker */
+/* global workbox */
 /**
  * Welcome to your Workbox-powered service worker!
  *
