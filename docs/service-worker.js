@@ -1,5 +1,3 @@
-/* eslint-env worker */
-/* global workbox */
 /**
  * Welcome to your Workbox-powered service worker!
  *
@@ -16,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.25186976c750341de0d2c849cad3db2a.js"
+  "/precache-manifest.a4c63ee4ff58acd4cdf6ba2aba38c5bc.js"
 );
 
 self.addEventListener('message', (event) => {
